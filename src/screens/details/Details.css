@@ -1,0 +1,28 @@
+.back-to-home-text {
+  margin-left: 24px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  height: 24px;
+  cursor: pointer;
+}
+.details-container {
+  display: flex;
+}
+.details-left-container {
+  width: 20%;
+  margin-left: 24px;
+}
+.details-middle-container {
+  width: 60%;
+}
+.details-right-container {
+  width: 20%;
+  margin-right: 24px;
+}
+
+.rating-yellow-color {
+  color: yellow;
+}
+.rating-black-color {
+  color: black;
+}

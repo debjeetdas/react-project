@@ -1,0 +1,63 @@
+.header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+  }
+  
+  .header-logo-container {
+    float: left;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(359deg);
+    }
+  }
+  
+  .header-logo {
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: rotation 8s infinite linear;
+  }
+  
+  .header-login-button {
+    float: right;
+  }
+  
+  .login-form-container {
+    padding-top: 5%;
+    text-align: center;
+  }
+  
+  .login-fields-alignment {
+    padding-bottom: 5%;
+  }
+  
+  .login-button {
+    text-align: center;
+  }
+  .register-form-container {
+    padding-top: 5%;
+    text-align: center;
+  }
+  
+  .register-fields-alignment {
+    padding-bottom: 5%;
+  }
+  .register-button {
+    text-align: center;
+  }
+  .register-success-message {
+    text-align: center;
+  }
+  
+  .fields-formcontrol {
+    width: 240px;
+  }
+  .error-color {
+    color: red;
+  }
+  
